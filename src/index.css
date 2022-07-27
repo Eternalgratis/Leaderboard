@@ -50,4 +50,5 @@ form {
 #form-btn {
   box-shadow: 2px 2px #000;
   width: 30%;
+  align-self: flex-end;
 }
