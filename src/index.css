@@ -6,6 +6,7 @@
 
 header {
   margin: 1rem;
+  font-size: 30px;
 }
 
 .scores-container {
@@ -17,9 +18,14 @@ header {
   display: flex;
 }
 
+.refresh h2 {
+  font-weight: 800;
+}
+
 #refresh-btn {
   margin-left: 5px;
   box-shadow: 2px 2px #000;
+  background-color: rgb(40, 196, 235);
 }
 
 li {
@@ -45,10 +51,13 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  box-shadow: 4px 3px #000;
+  background-color: rgb(235, 185, 235);
 }
 
 #form-btn {
   box-shadow: 2px 2px #000;
-  width: 30%;
+  width: 40%;
   align-self: flex-end;
+  background-color: rgb(184, 79, 184);
 }
