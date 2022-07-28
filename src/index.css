@@ -12,8 +12,6 @@ header {
 .multicolortext {
   background-image: linear-gradient(to left, violet, indigo, yellow, green, orange, blue, red, pink);
   -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
